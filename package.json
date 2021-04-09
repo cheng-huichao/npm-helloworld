@@ -1,6 +1,6 @@
 {
   "name": "huichao-hello-world",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": "Cheng Huichao <cheng.huichao@yahoo.com>",
   "repository": {
@@ -23,7 +23,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library": "vue-cli-service build --target lib --name huichao-hello-world-simple ./src/install.js",
+    "build-library": "vue-cli-service build --target lib --name huichao-hello-world ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
