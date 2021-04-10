@@ -17,8 +17,8 @@ export default {
 
 <style scoped>
 .hello{
-    border: 1px solid red;
-    color: red;
+    border: solid 1px red;
+    color: greenyellow;
     padding:5px 10px;
 }
 </style>

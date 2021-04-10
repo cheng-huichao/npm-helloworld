@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click.prevent="clickHandler()" :class="myClass">
+        <button @click.prevent="clickHandler" :class="myClass">
             <slot>hc button</slot>
         </button>
     </div>
