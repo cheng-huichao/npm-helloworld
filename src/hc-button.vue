@@ -1,7 +1,7 @@
 <template>
     <div>
         <button @click.prevent="clickHandler" :class="myClass">
-            <slot>hc button</slot>
+            <slot>Click Me</slot>
         </button>
     </div>
 </template>
@@ -20,13 +20,9 @@ export default {
     },
     methods: {
         clickHandler(e) {
-            alert(e.target.tagName);
-            alert(e.target.value);
+            alert('TagName: ' + e.target.tagName);
+            alert('Text: ' + e.target.innerText);
         }
     }
 }
 </script>
-
-<style scoped>
-
-</style>
