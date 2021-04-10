@@ -64,7 +64,7 @@ Remember to change the `version number` every time to publish
 
 ```
 // commands
-npm build-pkg  // generate the package files
+npm run build-pkg  // generate the package files
 npm adduser
 npm login
 npm publish  // publish to npm

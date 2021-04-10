@@ -1638,12 +1638,12 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var HelloWorld = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"e7b8fe0a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/hc-button.vue?vue&type=template&id=3e2a6484&scoped=true&
-var hc_buttonvue_type_template_id_3e2a6484_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('button',{class:_vm.myClass,on:{"click":function($event){$event.preventDefault();return _vm.clickHandler($event)}}},[_vm._t("default",[_vm._v("hc button")])],2)])}
-var hc_buttonvue_type_template_id_3e2a6484_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"e7b8fe0a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/hc-button.vue?vue&type=template&id=ebd14834&
+var hc_buttonvue_type_template_id_ebd14834_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('button',{class:_vm.myClass,on:{"click":function($event){$event.preventDefault();return _vm.clickHandler($event)}}},[_vm._t("default",[_vm._v("Click Me")])],2)])}
+var hc_buttonvue_type_template_id_ebd14834_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/hc-button.vue?vue&type=template&id=3e2a6484&scoped=true&
+// CONCATENATED MODULE: ./src/hc-button.vue?vue&type=template&id=ebd14834&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/hc-button.vue?vue&type=script&lang=js&
 //
@@ -1667,8 +1667,8 @@ var hc_buttonvue_type_template_id_3e2a6484_scoped_true_staticRenderFns = []
   },
   methods: {
     clickHandler: function clickHandler(e) {
-      alert(e.target.tagName);
-      alert(e.target.value);
+      alert('TagName: ' + e.target.tagName);
+      alert('Text: ' + e.target.innerText);
     }
   }
 });
@@ -1684,11 +1684,11 @@ var hc_buttonvue_type_template_id_3e2a6484_scoped_true_staticRenderFns = []
 
 var hc_button_component = normalizeComponent(
   src_hc_buttonvue_type_script_lang_js_,
-  hc_buttonvue_type_template_id_3e2a6484_scoped_true_render,
-  hc_buttonvue_type_template_id_3e2a6484_scoped_true_staticRenderFns,
+  hc_buttonvue_type_template_id_ebd14834_render,
+  hc_buttonvue_type_template_id_ebd14834_staticRenderFns,
   false,
   null,
-  "3e2a6484",
+  null,
   null
   
 )
