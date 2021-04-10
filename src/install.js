@@ -1,7 +1,7 @@
-import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld from "./HelloWorld.vue";
 
 export default {
-    install(Vue, options) {
+    install(Vue) {
         Vue.component('hello-world', HelloWorld);
     }
 };

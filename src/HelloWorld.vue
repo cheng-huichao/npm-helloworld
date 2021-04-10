@@ -12,3 +12,11 @@ export default {
   }
 }
 </script>
+
+
+<style scoped>
+.hello{
+    color: red;
+    padding:5px 10px;
+}
+</style>
