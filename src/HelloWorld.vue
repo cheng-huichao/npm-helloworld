@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+      hello
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -16,6 +17,7 @@ export default {
 
 <style scoped>
 .hello{
+    border: 1px solid red;
     color: red;
     padding:5px 10px;
 }

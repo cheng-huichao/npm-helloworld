@@ -1,6 +1,7 @@
 {
   "name": "huichao-hello-world",
-  "version": "0.1.4",
+  "version": "0.1.9",
+  "private": false,
   "author": "Cheng Huichao <cheng.huichao@yahoo.com>",
   "repository": {
     "type": "git",
@@ -9,25 +10,27 @@
   "bugs": {
     "url": "https://github.com/cheng-huichao/npm-helloworld.git"
   },
-  "main": "dist/huichao-hello-world.common.js",
+  "main": "package/huichao-hello-world.common.js",
   "files": [
-    "dist",
+    "package",
     "src",
     "*.json"
   ],
   "keywords": [
     "javascript",
     "vue",
-    "here"
+    "hello world"
   ],
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-pkg": "vue-cli-service build --target lib --name huichao-hello-world ./src/install.js",
+    "build-pkg": "vue-cli-service build --target lib --name huichao-hello-world --dest package ./src/install.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
