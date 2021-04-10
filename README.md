@@ -84,9 +84,10 @@ Vue.use({HelloWorld, HcButton});
 
 ## 5. If you want to delete the package from npm, run:
 
-> npm unpublish <package name>  
- 
+```
+npm unpublish <package-name>@<version>
 or
-> npm unpublish <package name> -f
+npm unpublish <package-name> -f
+```
 
 ref: https://docs.npmjs.com/unpublishing-packages-from-the-registry
