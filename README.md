@@ -33,3 +33,13 @@ npm adduser
 npm login
 npm publish
 ```
+
+```js
+
+import Vue from 'vue'  
+import {HelloWorld, HcButton} from 'huichao-hello-world'
+import 'huichao-hello-world/package/huichao-hello-world.css'; // 引入样式
+
+Vue.use({HelloWorld, HcButton});
+
+```
